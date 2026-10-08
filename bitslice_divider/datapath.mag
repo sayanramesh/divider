@@ -1,0 +1,155 @@
+magic
+tech tsmc180
+timestamp 1784278676
+<< metal1 >>
+rect 0 9405 33 9417
+rect 11913 9402 11946 9414
+rect 0 9374 33 9386
+rect 11913 9369 11946 9381
+rect 0 8217 33 8229
+rect 11913 8214 11946 8226
+rect 0 8186 33 8198
+rect 11913 8181 11946 8193
+rect 0 7029 33 7041
+rect 11913 7026 11946 7038
+rect 0 6998 33 7010
+rect 11913 6993 11946 7005
+rect 0 5841 33 5853
+rect 11913 5838 11946 5850
+rect 0 5810 33 5822
+rect 11913 5805 11946 5817
+rect 0 4653 33 4665
+rect 11913 4650 11946 4662
+rect 0 4622 33 4634
+rect 11913 4617 11946 4629
+rect 0 3465 33 3477
+rect 11913 3462 11946 3474
+rect 0 3434 33 3446
+rect 11913 3429 11946 3441
+rect 0 2277 33 2289
+rect 11913 2274 11946 2286
+rect 0 2246 33 2258
+rect 11913 2241 11946 2253
+rect 0 1089 33 1101
+rect 11913 1086 11946 1098
+rect 0 1058 33 1070
+rect 11913 1053 11946 1065
+<< metal2 >>
+rect 66 9537 316 9603
+rect 396 9537 410 9603
+rect 495 9537 509 9603
+rect 924 9537 938 9603
+rect 1419 9537 1433 9603
+rect 2079 9537 2093 9603
+rect 2376 9537 2390 9603
+rect 2706 9537 2720 9603
+rect 3729 9537 3743 9603
+rect 4752 9537 4766 9603
+rect 5610 9537 5624 9603
+rect 6006 9537 6020 9603
+rect 6501 9537 6515 9603
+rect 6963 9537 6977 9603
+rect 7854 9537 7868 9603
+rect 8349 9537 8363 9603
+rect 8679 9537 8693 9603
+rect 9702 9537 9716 9603
+rect 11649 9537 11899 9603
+rect 66 0 316 33
+rect 396 0 410 33
+rect 495 0 509 33
+rect 924 0 938 33
+rect 1419 0 1433 33
+rect 7854 0 7868 33
+rect 11649 0 11899 33
+use bitslice  bitslice_7
+timestamp 1784242682
+transform 1 0 66 0 1 8382
+box -33 -33 11847 1155
+use bitslice  bitslice_6
+timestamp 1784242682
+transform 1 0 66 0 1 7194
+box -33 -33 11847 1155
+use bitslice  bitslice_5
+timestamp 1784242682
+transform 1 0 66 0 1 6006
+box -33 -33 11847 1155
+use bitslice  bitslice_4
+timestamp 1784242682
+transform 1 0 66 0 1 4818
+box -33 -33 11847 1155
+use bitslice  bitslice_3
+timestamp 1784242682
+transform 1 0 66 0 1 3630
+box -33 -33 11847 1155
+use bitslice  bitslice_2
+timestamp 1784242682
+transform 1 0 66 0 1 2442
+box -33 -33 11847 1155
+use bitslice  bitslice_1
+timestamp 1784242682
+transform 1 0 66 0 1 1254
+box -33 -33 11847 1155
+use bitslice  bitslice_0
+timestamp 1784242682
+transform 1 0 66 0 1 66
+box -33 -33 11847 1155
+<< labels >>
+rlabel metal2 66 0 316 0 1 Vdd!
+rlabel metal2 396 0 410 0 1 SDI
+rlabel metal2 495 0 509 0 1 Test
+rlabel metal2 924 0 938 0 1 Clock
+rlabel metal2 1419 0 1433 0 1 nReset
+rlabel metal2 7854 0 7868 0 1 CarryIn
+rlabel metal2 11649 0 11899 0 1 GND!
+rlabel metal1 11946 1053 11946 1065 7 Result0<0>
+rlabel metal1 11946 1086 11946 1098 7 Result1<0>
+rlabel metal1 11946 2241 11946 2253 7 Result0<1>
+rlabel metal1 11946 2274 11946 2286 7 Result1<1>
+rlabel metal1 11946 3429 11946 3441 7 Result0<2>
+rlabel metal1 11946 3462 11946 3474 7 Result1<2>
+rlabel metal1 11946 4617 11946 4629 7 Result0<3>
+rlabel metal1 11946 4650 11946 4662 7 Result1<3>
+rlabel metal1 11946 5805 11946 5817 7 Result0<4>
+rlabel metal1 11946 5838 11946 5850 7 Result1<4>
+rlabel metal1 11946 6993 11946 7005 7 Result0<5>
+rlabel metal1 11946 7026 11946 7038 7 Result1<5>
+rlabel metal1 11946 8181 11946 8193 7 Result0<6>
+rlabel metal1 11946 8214 11946 8226 7 Result1<6>
+rlabel metal1 11946 9369 11946 9381 7 Result0<7>
+rlabel metal1 11946 9402 11946 9414 7 Result1<7>
+rlabel metal2 11649 9603 11899 9603 5 GND!
+rlabel metal2 9702 9603 9716 9603 5 LoadR
+rlabel metal2 8679 9603 8693 9603 5 LoadT
+rlabel metal2 8349 9603 8363 9603 5 EnableALU
+rlabel metal2 7854 9603 7868 9603 5 CarryOut
+rlabel metal2 6963 9603 6977 9603 5 F[0]
+rlabel metal2 6501 9603 6515 9603 5 SelACC
+rlabel metal2 6006 9603 6020 9603 5 SelR
+rlabel metal2 5610 9603 5624 9603 5 SelR1
+rlabel metal2 4752 9603 4766 9603 5 LoadR1
+rlabel metal2 3729 9603 3743 9603 5 LoadR0
+rlabel metal2 2706 9603 2720 9603 5 LoadACC
+rlabel metal2 2376 9603 2390 9603 5 EnableOp2
+rlabel metal2 2079 9603 2093 9603 5 EnableOp1
+rlabel metal2 1419 9603 1433 9603 5 nReset
+rlabel metal2 924 9603 938 9603 5 Clock
+rlabel metal2 396 9603 410 9603 5 SDO
+rlabel metal2 495 9603 509 9603 5 Test
+rlabel metal2 66 9603 316 9603 5 Vdd!
+rlabel metal1 0 1058 0 1070 3 Operand2<0>
+rlabel metal1 0 1089 0 1101 3 Operand1<0>
+rlabel metal1 0 2246 0 2258 3 Operand2<1>
+rlabel metal1 0 2277 0 2289 3 Operand1<1>
+rlabel metal1 0 3434 0 3446 3 Operand2<2>
+rlabel metal1 0 3465 0 3477 3 Operand1<2>
+rlabel metal1 0 4622 0 4634 3 Operand2<3>
+rlabel metal1 0 4653 0 4665 3 Operand1<3>
+rlabel metal1 0 5810 0 5822 3 Operand2<4>
+rlabel metal1 0 5841 0 5853 3 Operand1<4>
+rlabel metal1 0 6998 0 7010 3 Operand2<5>
+rlabel metal1 0 7029 0 7041 3 Operand1<5>
+rlabel metal1 0 8186 0 8198 3 Operand2<6>
+rlabel metal1 0 8217 0 8229 3 Operand1<6>
+rlabel metal1 0 9374 0 9386 3 Operand2<7>
+rlabel metal1 0 9405 0 9417 3 Operand1<7>
+<< end >>
